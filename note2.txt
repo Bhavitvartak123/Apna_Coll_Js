@@ -1,0 +1,48 @@
+Loops
+
+For Loop
+
+
+//Block scope using("let") vs global scope using("var")
+
+//Print i 5 time
+for(let i=1; i <= 5; i++){
+    console.log("i =",i);
+}
+console.log(i); //i is not defined at **error**
+
+for(var i=1; i <= 5; i++){
+    console.log("i =",i);
+}
+
+console.log(i); //ans 6
+
+***Mostly use "let" in loop
+
+---------------------------------------------------------------
+
+While loop
+
+//Syntax "while loop"
+// let i = "intilize"
+// while(stopping condition){
+//     Updating condition
+// }
+
+-----------------------------------------------------------
+
+Do while Loop
+
+Syntax
+let s = 20;
+do{
+    console.log("Apna College");
+    s++;
+}while(s <= 10);
+
+----------------------------------------------------------------
+
+For of Loop (Use only "String" || "Array")
+
+
+

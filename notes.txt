@@ -1,0 +1,138 @@
+<script src="fileName"></script>= Link js to html
+Different between null & undefined??
+null:-pata to hai iske andhar kya hai per iske andhar ake khali value hai
+undefined:- iske andhr kya hai pata hai nahi hai
+--------------------------------------------------------------------------------
+Variable Rules
+
+• Variable names are case sensitive; "a" & "A" is different.
+
+• Only letters, digits, underscore() and $ is allowed. (not even space)
+
+• Only a letter, underscore() or $ should be 1st character.
+
+• Reserved words cannot be variable names.
+----------------------------------------------------------------------------------
+3 type of keyword
+
+let, const & var
+
+var: Variable can be re-declared & updated. A global scope variable.
+
+let: Variable cannot be re-declared but can be updated. A block scope variable.
+
+const: Variable cannot be re-declared or updated. A block scope variable.
+-----------------------------------------------------------------------------------
+Data type in js 
+
+Total 8 type of data type.
+
+7 types of primitate data type
+Number,String,Boolean,undefined,Null,BigInt,Symbol
+
+Non-primative data type
+object
+
+*check datatype??
+typeof (variable names)
+
+Objects [arrays, function]
+
+It is a collection of values or diffrent variables
+All premetive data type store in "One" object
+In object data store key & value
+Objects usually declared with "const".
+"const" keyword value can't change but const object value will be change.
+
+Key      :   value
+{
+age      :   24
+name     :   tony
+isFollow :   boolean
+}
+
+//Acces particular key or value 
+//Two types (object.key || objct["key"]) 
+
+let ko update kar sakte 
+const update nahie kr sakte
+But const Obj ko update kr sakte hai
+----------------------------------------------------------------------------------
+
+***Operator & Condition***
+
++ - * / % ** Arthmetic Operator
+In arthmetic Operator need two compo E.g a b
+
+a+b || a-b || a*b || a/b || a%b
+
+----------------------------------------
+
+Unnary opt 
+++ || --
+
+a++ = a+1 || a-- = a-1
+
+---------------
+//post & pre increment ++a --b
+
+let j=10;
+console.log(++j); //ans 11 
+
+let k=10;
+console.log(k++); //ans 10
+-----------------------------------------
+
+Assignment opt
+//= += -= *= %= **=
+-----------------------------------------
+
+//Comparison opt  (2compare 2values)
+// Equal to ==       ||      Equal to type ===
+// Not equal to !=   ||      Not equal to & type !==  
+
+-----------------------------------------------
+
+Logical Operator
+
+&& || !
+
+***&&***
+(true && true) //ans true
+(true && false) //ans false
+(false && true) //ans false
+(false && false) //ans false
+
+*************************
+
+***||***
+(true || true) //ans true
+(true || false) //ans true
+(false || true) //ans true
+(false || false) //ans false
+
+//***!***(Not) (use the bracket before using not operator)
+
+----------------------------------------------------------------------
+
+Condition statement
+
+if and else statement
+
+-----------------------------------------------------------
+
+//Ternory Opt(working at 3 operands)
+//If else likhnee ka dusra tarika "Ternory operator"
+
+// condition ? true output :false output
+
+let age2 = 17;
+
+let result= age2 >= 18 ? "adult" : "not adult";
+//age2 >= 18 ? console.log("adult") :console.log("not adult"); //Method 2 for concole
+
+console.log(result); //ans not adult
+
+---------------------------------------------------------------
+
+Promat (use for give the message and collect data we use "promat")
